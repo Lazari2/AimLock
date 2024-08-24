@@ -4,7 +4,7 @@ import pyautogui
 from pynput import keyboard
 from ultralytics import YOLO
 
-model = YOLO('C:/opencv/runs/detect/train/weights/best.pt')
+model = YOLO('C:/opencv/aimlock/runs/detect/train/weights/best.pt')
 
 screen_width, screen_height = pyautogui.size()
 center_screen_x = screen_width // 2

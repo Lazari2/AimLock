@@ -1,9 +1,9 @@
 import cv2
 from ultralytics import YOLO
 
-model = YOLO('C:/opencv/runs/detect/train/weights/best.pt')
+model = YOLO('C:/opencv/aimlock/runs/detect/train/weights/best.pt')
 
-img = cv2.imread('C:/opencv/Img/train/images/7.png')
+img = cv2.imread('C:/opencv/aimlock/Img/train/images/7.png')
 
 
 img = cv2.resize(img, (800, 640))  
